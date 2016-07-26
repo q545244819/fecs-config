@@ -29,7 +29,7 @@
  - no-nested-ternary: 不允许使用嵌套的三元表达式
  - no-multiple-empty-lines: 不允许多个空行
  - no-mixed-spaces-and-tabs: 不允许空格和 tab 混合缩进
- - no-array-constructor: no-array-constructor
+ - no-array-constructor: 禁止使用 Array 构造函数
 
 ```JSON
   "eslint": {
