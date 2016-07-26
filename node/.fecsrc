@@ -1,0 +1,42 @@
+{
+  "eslint": {
+    "parserOptions": {
+      "ecmaVersion": 6
+    },
+    "env": {
+      "node": true,
+      "browser": false
+    },
+    "rules": {
+      "indent": [2, 2, {"SwitchCase": 1}],
+      "semi": ["never"],
+      "comma-dangle": ["error", "never"],
+      "eqeqeq": ["error"],
+      "no-unused-vars": 2,
+      "no-console": {"allow": ["warn", "error"]},
+      "no-empty": ["error"],
+      "no-eval": ["error"],
+      "no-lone-blocks": ["error"],
+      "no-native-reassign": ["error", {"exceptions": ["Object"]}],
+      "global-require": ["error"],
+      "no-extra-semi": ["error"],
+      "no-duplicate-case": ["error"],
+      "no-dupe-keys": ["error"],
+      "no-cond-assign": ["error", "always"],
+      "no-use-before-define": ["error"],
+      "no-plusplus": ["error", { "allowForLoopAfterthoughts": true }],
+      "eol-last": ["error"],
+      "no-unexpected-multiline": ["error"],
+      "arrow-spacing": ["error"],
+      "no-const-assign": ["error"],
+      "no-dupe-class-members": ["error"],
+      "prefer-arrow-callback": ["error"],
+      "newline-before-return": ["error"],
+      "space-infix-ops": ["error"],
+      "no-nested-ternary": ["error"],
+      "no-multiple-empty-lines": ["error"],
+      "no-mixed-spaces-and-tabs": ["error"],
+      "no-array-constructor": ["error"]
+    }
+  }
+}
